@@ -412,6 +412,10 @@
     [
       "e926887c-cd26-4f47-be51-3352b14f6743",
       "Root"
+    ],
+    [
+      "65b6e221-2db7-4e52-96fb-70ae76f49758",
+      "power-subsystem"
     ]
   ],
   "text_variables": {}
