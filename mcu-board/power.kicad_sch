@@ -5,6 +5,148 @@
 	(uuid "64802fa3-9f8f-4230-9b17-9a50afcd53f1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1956,7 +2098,7 @@
 	)
 	(rectangle
 		(start 17.78 137.16)
-		(end 46.99 168.91)
+		(end 46.99 175.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -1977,6 +2119,18 @@
 			(type none)
 		)
 		(uuid 8298aa9d-7c78-4f06-a998-3d1327ab1429)
+	)
+	(rectangle
+		(start 46.99 137.16)
+		(end 83.82 175.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9af66e59-202d-4a71-a62b-c2db28b4714e)
 	)
 	(rectangle
 		(start 203.2 63.5)
@@ -2033,6 +2187,16 @@
 			(justify left)
 		)
 		(uuid "35b3dba1-d430-4cc5-bcc1-18102dfe20d9")
+	)
+	(text "Battery Connectors"
+		(exclude_from_sim no)
+		(at 56.642 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5adb6607-d720-4ef1-b4e5-6673d4dd5844")
 	)
 	(text "Power Indicator Light"
 		(exclude_from_sim no)
@@ -2500,6 +2664,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 151.13) (xy 59.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c78499a-834c-449c-84e8-fa5d428894f4")
+	)
+	(wire
+		(pts
+			(xy 59.69 148.59) (xy 59.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822291ce-87df-4c46-8dfb-6fec521af998")
+	)
+	(wire
+		(pts
 			(xy 73.66 85.09) (xy 87.63 85.09)
 		)
 		(stroke
@@ -2700,6 +2884,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 166.37) (xy 59.69 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79091ac-86ed-4517-8d22-63d3f4e98e92")
+	)
+	(wire
+		(pts
 			(xy 179.07 97.79) (xy 179.07 127)
 		)
 		(stroke
@@ -2707,6 +2901,16 @@
 			(type default)
 		)
 		(uuid "cbee623e-097b-44a5-adf6-77d0ac1ff06b")
+	)
+	(wire
+		(pts
+			(xy 59.69 158.75) (xy 59.69 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5b5308-cfb2-4c68-8184-fc3f8b2ef7fd")
 	)
 	(wire
 		(pts
@@ -2878,7 +3082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ec53fd-1628-4acd-9b4b-2e03585377e8")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -2932,6 +3136,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2944,7 +3154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2580040f-509e-448f-a25d-5408c6a95217")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 187.96 82.55 0)
 			(effects
 				(font
@@ -2995,6 +3205,12 @@
 			(project ""
 				(path "/2b16cdca-2cfc-4ade-aafc-efa9555fbeae"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3165,7 +3381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47982256-c919-4f1c-bfd7-5ebccb8968d8")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 179.07 133.35 0)
 			(effects
 				(font
@@ -3216,6 +3432,12 @@
 			(project "power-subsystem-new"
 				(path "/2b16cdca-2cfc-4ade-aafc-efa9555fbeae"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3298,6 +3520,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 59.69 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56ed5523-90cc-440b-b3ee-ce9e7daa8914")
+		(property "Reference" "#PWR020"
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a611685-b69b-4683-9cad-0e33dc28a3a3")
+		)
+		(instances
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 264.16 78.74 0)
 		(unit 1)
@@ -3307,7 +3595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "578b3f1c-e1de-45c2-af6b-bfe0a148232f")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 264.16 82.55 0)
 			(effects
 				(font
@@ -3361,6 +3649,82 @@
 					(unit 1)
 				)
 			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 64.77 151.13 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "594e4cf4-d10e-4ab5-97e4-caa355448e1f")
+		(property "Reference" "J6"
+			(at 67.31 151.1301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 67.31 148.5901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 64.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 64.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e5b6cd-a1e8-4d85-9bf1-39fdb1101a38")
+		)
+		(pin "2"
+			(uuid "f89fe39f-8b6c-4826-a4a1-4062970f54ce")
+		)
+		(instances
+			(project ""
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3373,7 +3737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bc0668d-7be7-4c2f-9f20-271c556e243c")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 209.55 133.35 0)
 			(effects
 				(font
@@ -3427,6 +3791,82 @@
 					(unit 1)
 				)
 			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 64.77 166.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "649220be-1068-4921-8560-11c7efaef821")
+		(property "Reference" "J8"
+			(at 67.31 166.3701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 67.31 163.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 64.77 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 64.77 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b670e924-b03b-4139-9a18-d715894ca115")
+		)
+		(pin "2"
+			(uuid "cbf4b409-26b3-4aad-bc32-95fd3ccfc2ea")
+		)
+		(instances
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "J8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3439,7 +3879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "714dbdd4-5fcb-44f5-8342-39b8ffc85142")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -3490,6 +3930,12 @@
 			(project "power-subsystem-new"
 				(path "/2b16cdca-2cfc-4ade-aafc-efa9555fbeae"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3689,7 +4135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86847ca6-3ac7-40fc-afa0-ae3fce649f9d")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 276.86 82.55 0)
 			(effects
 				(font
@@ -3740,6 +4186,12 @@
 			(project ""
 				(path "/2b16cdca-2cfc-4ade-aafc-efa9555fbeae"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4303,6 +4755,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 59.69 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0a15956-c235-479c-a018-32b233e0775e")
+		(property "Reference" "#PWR021"
+			(at 59.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc6833b8-a74c-465d-a4f5-41347acb0f18")
+		)
+		(instances
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 228.6 78.74 0)
 		(unit 1)
@@ -4312,7 +4830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5283ea5-c102-47d3-973d-d356436a4d10")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 228.6 82.55 0)
 			(effects
 				(font
@@ -4363,6 +4881,12 @@
 			(project ""
 				(path "/2b16cdca-2cfc-4ade-aafc-efa9555fbeae"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0096417-75df-44a5-965f-df13634a62f7")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 114.3 133.35 0)
 			(effects
 				(font
@@ -4495,6 +5019,12 @@
 			(project "power-subsystem-new"
 				(path "/2b16cdca-2cfc-4ade-aafc-efa9555fbeae"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4738,7 +5268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3b8e894-fb2d-4472-8677-d9f11e71e171")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 24.13 82.55 0)
 			(effects
 				(font
@@ -4792,6 +5322,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4804,7 +5340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8db2e57-5ba2-4035-a3ea-922a2c23acaa")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 46.99 82.55 0)
 			(effects
 				(font
@@ -4858,6 +5394,82 @@
 					(unit 1)
 				)
 			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 64.77 158.75 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f489955d-dc88-4ed4-aaba-a859a3dd76cf")
+		(property "Reference" "J7"
+			(at 67.31 158.7501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 67.31 156.2101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 64.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 64.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d121850d-5c47-4ca9-ad68-dcbabe2ac3ce")
+		)
+		(pin "2"
+			(uuid "a3ab5b4c-c607-4b98-af69-851d86c46ee2")
+		)
+		(instances
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4870,7 +5482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe15f3b6-e431-446f-a245-fa9fd3462fd9")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 242.57 82.55 0)
 			(effects
 				(font
@@ -4921,6 +5533,12 @@
 			(project ""
 				(path "/2b16cdca-2cfc-4ade-aafc-efa9555fbeae"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
