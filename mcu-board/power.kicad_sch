@@ -1041,322 +1041,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2083,6 +1767,606 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ssm3j3:SSM3J328R_LF"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SSM3J328R_LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT-23F_TOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=2418&prodName=SSM3J328R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SSM3J328R,LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-23F_TOS SOT-23F_TOS-M SOT-23F_TOS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SSM3J328R_LF_0_1"
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 4.572 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -10.16) (xy 1.778 -11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -10.16) (xy 2.794 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -10.16) (xy 1.778 -11.43) (xy 0.762 -12.7) (xy 2.794 -12.7) (xy 1.778 -11.43) (xy 2.794 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -11.43) (xy 0.254 -11.938)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -11.43) (xy 2.794 -11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -12.7) (xy 2.794 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -7.62) (xy 1.778 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 -7.62)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -11.43) (xy 0.762 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -12.7) (xy 1.778 -13.462)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -13.462) (xy 10.16 -13.462)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -10.16) (xy 1.778 -11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -11.43) (xy 3.302 -10.922)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -12.7) (xy 1.778 -11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 4.318 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -3.302) (xy 6.35 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 8.89 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -6.096) (xy 6.35 -4.064)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -7.874) (xy 12.7 -7.874)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -8.89) (xy 6.35 -6.858)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -4.572) (xy 8.89 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -4.572) (xy 8.89 -5.588) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -5.588) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.16 -2.286)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.16 -7.874)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.16 -13.462)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -4.318) (xy 13.97 -4.318)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -4.318) (xy 12.7 -5.588) (xy 13.97 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.588) (xy 13.97 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.286) (xy 6.35 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -4.318) (xy 12.7 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.588) (xy 11.43 -4.318)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.874) (xy 12.7 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -4.318) (xy 12.7 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -17.78 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 129.54 63.5)
@@ -2157,7 +2441,7 @@
 	)
 	(text "detaches battery\nwhen VBUS present"
 		(exclude_from_sim no)
-		(at 243.332 82.55 0)
+		(at 246.634 69.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2179,7 +2463,7 @@
 	)
 	(text "disables the 6V lin. \nreg. when Vdd is 5V"
 		(exclude_from_sim no)
-		(at 25.654 81.534 0)
+		(at 21.844 70.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2259,6 +2543,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46affd0d-de50-48e1-90bc-5de0d0cf8d23")
+	)
+	(junction
+		(at 228.6 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59a936c0-7f69-41f8-a235-d22e557f850e")
 	)
 	(junction
 		(at 264.16 92.71)
@@ -2434,6 +2724,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 82.55) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfa3a3a-aeab-4148-be76-41d025d4f9c5")
+	)
+	(wire
+		(pts
 			(xy 187.96 78.74) (xy 187.96 85.09)
 		)
 		(stroke
@@ -2561,16 +2861,6 @@
 			(type default)
 		)
 		(uuid "5330ba32-4030-49da-b0fc-d254ec223bf5")
-	)
-	(wire
-		(pts
-			(xy 234.95 87.63) (xy 228.6 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54ac7033-0cdf-4251-b5d1-3d2a0db1d3d6")
 	)
 	(wire
 		(pts
@@ -2724,16 +3014,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 78.74) (xy 46.99 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea44c5d-610c-456d-a6e7-ad01e7556db4")
-	)
-	(wire
-		(pts
 			(xy 116.84 109.22) (xy 116.84 113.03)
 		)
 		(stroke
@@ -2761,16 +3041,6 @@
 			(type default)
 		)
 		(uuid "98c13561-23f9-440d-b756-39c047857bcb")
-	)
-	(wire
-		(pts
-			(xy 46.99 99.06) (xy 66.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aea744a-2a17-47e5-b5a5-8f0e204dc3b1")
 	)
 	(wire
 		(pts
@@ -2834,17 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 78.74) (xy 242.57 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94fb860-6d95-4250-ba4f-05c53f81e1bc")
-	)
-	(wire
-		(pts
-			(xy 228.6 87.63) (xy 228.6 78.74)
+			(xy 228.6 87.63) (xy 228.6 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2894,6 +3154,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 99.06) (xy 66.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d4af3f-3db1-4ec7-814a-b4816fa9e458")
+	)
+	(wire
+		(pts
 			(xy 179.07 97.79) (xy 179.07 127)
 		)
 		(stroke
@@ -2934,13 +3204,23 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 88.9) (xy 39.37 88.9)
+			(xy 24.13 88.9) (xy 29.21 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc07c5ed-7792-406f-a73c-01f959bb9cc6")
+	)
+	(wire
+		(pts
+			(xy 228.6 82.55) (xy 229.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddde1097-ce74-4b5f-b085-308c04f2b23b")
 	)
 	(wire
 		(pts
@@ -3024,16 +3304,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 93.98) (xy 46.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec66cde-6055-4cd1-87b8-820b9df0ec5f")
-	)
-	(wire
-		(pts
 			(xy 219.71 87.63) (xy 219.71 107.95)
 		)
 		(stroke
@@ -3071,6 +3341,26 @@
 			(type default)
 		)
 		(uuid "fc774400-697e-4886-81cc-410c3b557641")
+	)
+	(label "Intercell_1"
+		(at 59.69 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79dd9cc0-9130-4a84-9ffe-cabf7f13fdca")
+	)
+	(label "Intercell_2"
+		(at 59.69 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bd9fc6b-45c2-4499-b9f7-a7b1834ea765")
 	)
 	(symbol
 		(lib_id "power:+6V")
@@ -3211,6 +3501,80 @@
 			(project "mcu board"
 				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ssm3j3:SSM3J328R_LF")
+		(at 232.41 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3769b9be-4c61-43d7-9e4b-09176dd33b49")
+		(property "Reference" "MOSFET2"
+			(at 245.872 82.296 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSM3J328R_LF"
+			(at 244.094 84.836 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT-23F_TOS"
+			(at 232.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=2418&prodName=SSM3J328R"
+			(at 232.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4167c44f-70c2-4f27-babb-61da21295701")
+		)
+		(pin "1"
+			(uuid "1f5c78d0-2634-4eae-9670-4a32829e4fe5")
+		)
+		(pin "3"
+			(uuid "6424cc01-6983-4329-a024-99a4e76a1acd")
+		)
+		(instances
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "MOSFET2")
 					(unit 1)
 				)
 			)
@@ -4020,106 +4384,75 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 240.03 87.63 0)
+		(lib_id "ssm3j3:SSM3J328R_LF")
+		(at 31.75 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8489bd15-4c6c-4e6d-b841-c55757b76d44")
-		(property "Reference" "Q2"
-			(at 246.38 86.3599 0)
+		(uuid "7cec9818-cc34-4598-9f06-0ff0def777d3")
+		(property "Reference" "MOSFET1"
+			(at 46.99 87.6299 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3J328R,LF"
-			(at 246.38 88.8999 0)
+		(property "Value" "SSM3J328R_LF"
+			(at 46.99 90.1699 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 245.11 85.09 0)
+		(property "Footprint" "SOT-23F_TOS"
+			(at 31.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=2418&prodName=SSM3J328R"
+			(at 31.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 240.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 240.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 240.03 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 240.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3e59b940-4aad-4ffe-b701-41e0c845625f")
-		)
-		(pin "1"
-			(uuid "ab212b68-f615-4735-bd49-17fd70e425b1")
 		)
 		(pin "2"
-			(uuid "dc14d676-52ff-4f68-bd97-7ecce425535f")
+			(uuid "9f28bec9-25e7-4920-963d-6dd9f130cf0a")
+		)
+		(pin "1"
+			(uuid "2aef86b3-5dde-4840-a7c9-b82087ea94fc")
+		)
+		(pin "3"
+			(uuid "cf91d1d8-af39-451b-88cf-65d2a9f59b40")
 		)
 		(instances
 			(project ""
-				(path "/2b16cdca-2cfc-4ade-aafc-efa9555fbeae"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-			(project ""
 				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
-					(reference "Q2")
+					(reference "MOSFET1")
 					(unit 1)
 				)
 			)
@@ -4339,112 +4672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 44.45 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abf68102-86c1-4bb0-a97c-236c7e6dc156")
-		(property "Reference" "Q1"
-			(at 50.8 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SSM3J328R,LF"
-			(at 50.8 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 44.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 44.45 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 44.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5b837676-2fef-4969-a66d-9cdb021f2c0b")
-		)
-		(pin "1"
-			(uuid "cb35d890-2347-4151-8f5e-51e61c6b759b")
-		)
-		(pin "2"
-			(uuid "4a55aeae-1d87-4abe-8172-46d459e71a67")
-		)
-		(instances
-			(project "power-subsystem-new"
-				(path "/2b16cdca-2cfc-4ade-aafc-efa9555fbeae"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 73.66 90.17 0)
 		(unit 1)
@@ -4548,7 +4775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 31.75 151.13 0)
 			(effects
 				(font
@@ -5332,7 +5559,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 46.99 78.74 0)
+		(at 41.91 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5341,7 +5568,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8db2e57-5ba2-4035-a3ea-922a2c23acaa")
 		(property "Reference" "#PWR0105"
-			(at 46.99 82.55 0)
+			(at 41.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5577,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 46.99 73.66 0)
+			(at 41.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 78.74 0)
+			(at 41.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 78.74 0)
+			(at 41.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 46.99 78.74 0)
+			(at 41.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5701,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 242.57 78.74 0)
+		(at 242.57 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5483,7 +5710,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe15f3b6-e431-446f-a245-fa9fd3462fd9")
 		(property "Reference" "#PWR0109"
-			(at 242.57 82.55 0)
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5719,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 242.57 73.66 0)
+			(at 242.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 78.74 0)
+			(at 242.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +5736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 78.74 0)
+			(at 242.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5745,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 242.57 78.74 0)
+			(at 242.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

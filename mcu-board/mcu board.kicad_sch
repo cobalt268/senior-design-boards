@@ -1369,28 +1369,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Switch:SW_SPST"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1398,7 +1394,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1407,15 +1403,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1424,7 +1411,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Description" "Single Pole Single Throw (SPST) switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1433,7 +1420,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1447,7 +1443,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy -1.524 0.254) (xy 1.524 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1468,22 +1464,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "SW_SPST_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1501,7 +1487,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3163,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 129.54 77.47)
+			(xy 129.54 82.55) (xy 129.54 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 57.15) (xy 116.84 57.15)
+			(xy 114.3 55.88) (xy 116.84 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3373,6 +3359,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 76.2) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54866ec4-bbab-460c-ad6b-8ce5c469f4f4")
+	)
+	(wire
+		(pts
 			(xy 82.55 52.07) (xy 82.55 48.26)
 		)
 		(stroke
@@ -3383,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 77.47) (xy 127 77.47)
+			(xy 129.54 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3473,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 57.15) (xy 129.54 62.23)
+			(xy 129.54 55.88) (xy 129.54 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3483,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 57.15) (xy 127 57.15)
+			(xy 129.54 55.88) (xy 127 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3623,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 77.47) (xy 116.84 77.47)
+			(xy 114.3 76.2) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3830,6 +3826,16 @@
 			(type default)
 		)
 		(uuid "fa48ec5f-976b-4fca-8883-5d8a6e78618a")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 114.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6cdda7-a122-4553-a58f-22d604d95a0d")
 	)
 	(wire
 		(pts
@@ -4284,6 +4290,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1158f469-ceb6-4f9d-ad78-6324bd9f515b")
+		(property "Reference" "SW1"
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f64092d9-9695-45cb-8edf-dbde77c171fd")
+		)
+		(pin "2"
+			(uuid "3861b7a0-da87-4895-a4fa-3336149d7f2d")
+		)
+		(instances
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 240.03 97.79 90)
 		(unit 1)
@@ -4509,7 +4583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mouseLib:450301014042"
+		(property "Footprint" "mouseLib:ESP32-S3-1-WROOM_1"
 			(at 172.72 55.88 0)
 			(effects
 				(font
@@ -4875,74 +4949,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 121.92 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "537838cc-3c12-46c7-9691-35dfe174f956")
-		(property "Reference" "SW1"
-			(at 121.92 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOT"
-			(at 121.92 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 121.92 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4de28ef0-4735-40b4-93db-5dcce378bde8")
-		)
-		(pin "1"
-			(uuid "73c82536-3557-4962-8351-b5e32fa8d186")
-		)
-		(instances
-			(project ""
-				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 240.03 95.25 270)
 		(unit 1)
@@ -5099,7 +5105,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 208.28 50.8 0)
 			(effects
 				(font
@@ -5178,7 +5184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x40_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 255.27 97.79 0)
 			(effects
 				(font
@@ -5453,7 +5459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EESD:1x6 Socket"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 254.508 45.72 0)
 			(effects
 				(font
@@ -5864,7 +5870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EESD:1x6 Socket"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 254.508 67.31 0)
 			(effects
 				(font
@@ -5983,6 +5989,74 @@
 			(project ""
 				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56b0ba8-06df-4a67-b673-50571189e1d2")
+		(property "Reference" "SW2"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54abc204-d522-412d-8d14-c32d371a97f5")
+		)
+		(pin "2"
+			(uuid "33686864-e825-4333-9071-56c89a46a108")
+		)
+		(instances
+			(project ""
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6368,74 +6442,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 121.92 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1cafcaa-2cb9-4d5b-8d3e-5ecb9ecbe6ea")
-		(property "Reference" "SW2"
-			(at 121.92 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RESET"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95e1da27-ffea-47df-916e-09d9436304aa")
-		)
-		(pin "1"
-			(uuid "f6c47346-e630-4e8f-86d0-c15dbf163f80")
-		)
-		(instances
-			(project "mcu board"
-				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 114.3 80.01 0)
 		(unit 1)
@@ -6533,7 +6539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EESD:1x6 Socket"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 254.508 24.13 0)
 			(effects
 				(font

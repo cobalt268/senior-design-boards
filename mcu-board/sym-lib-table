@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "mouseLib")(type "KiCad")(uri "${KIPRJMOD}/../mouseLib/mouselib.kicad_sym")(options "")(descr ""))
+  (lib (name "ssm3j3")(type "KiCad")(uri "${KIPRJMOD}/ssm3j328r/2025-11-20_19-37-10.kicad_sym")(options "")(descr ""))
 )
