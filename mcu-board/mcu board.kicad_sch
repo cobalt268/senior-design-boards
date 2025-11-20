@@ -4375,7 +4375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.76 36.83 0)
 			(effects
 				(font
@@ -4509,7 +4509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMSmouse:450301014042"
+		(property "Footprint" "mouseLib:450301014042"
 			(at 172.72 55.88 0)
 			(effects
 				(font
@@ -4696,7 +4696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 142.24 36.83 0)
 			(effects
 				(font
@@ -4832,7 +4832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 114.3 59.69 0)
 			(effects
 				(font
@@ -5037,7 +5037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RMSmouse:gearmotorenc"
+		(property "Footprint" "mouseLib:gearmotorenc"
 			(at 81.28 120.65 0)
 			(effects
 				(font
@@ -5178,7 +5178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x40_P2.54mm_Vertical"
 			(at 255.27 97.79 0)
 			(effects
 				(font
@@ -5946,7 +5946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.55 54.61 0)
 			(effects
 				(font
@@ -6146,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 48.26 58.42 0)
 			(effects
 				(font
@@ -6261,7 +6261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -6331,7 +6331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RMSmouse:gearmotorenc"
+		(property "Footprint" "mouseLib:gearmotorenc"
 			(at 81.28 113.03 0)
 			(effects
 				(font
@@ -6463,7 +6463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 114.3 80.01 0)
 			(effects
 				(font
